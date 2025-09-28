@@ -1,5 +1,5 @@
 # Mixed-Categorical-Predictors-and-Numerical-Target-Correlation-Screening-Pipeline
-> ONE-LINE TAGLINE THAT EXPLAINS WHAT THE SCRIPT DOES
+> Exhaustive, disk-backed feature-transformation grid with nested-CV Elastic Net to deliver out-of-sample R² scores per target
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](#)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#)
