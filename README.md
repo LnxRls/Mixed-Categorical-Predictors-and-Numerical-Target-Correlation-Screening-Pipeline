@@ -30,4 +30,8 @@ pip install -r requirements.txt
 
 # 3) Run a minimal example
 python correlation_pipeline_grid_memmap_cv_enet.py --data /mnt/data/source_data.csv --print_output_dir /mnt/data --targets  "Target1_Name" "Target2_Name" --output_dir /mnt/data --memmap_dir /mnt/data/tmp --cv_folds 5 --enet_cv_folds 5 --standardize --disable_cat_oof --disable_cat_smoothed
+```
+
+## Files Descriptions
+The *Code_Review.docx* is a MS Word document with content pertained to its name. Although it is a braindump it offers a lot of helpful material that expedites code familiarization. It reviews the body of code from a bird's eye view, it provides insight about the math/stats running at the core of the script, it lists CLI flag examples, tips and tricks for efficient execution separated in functional categories and the Q/As at its lowest section explain a few technical terms and answer user anticiapted questions.
 
