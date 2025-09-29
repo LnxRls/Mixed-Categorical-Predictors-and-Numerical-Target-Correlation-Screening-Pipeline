@@ -32,7 +32,13 @@ pip install -r requirements.txt
 python correlation_pipeline_grid_memmap_cv_enet.py --data /mnt/data/source_data.csv --print_output_dir /mnt/data --targets  "Target1_Name" "Target2_Name" --output_dir /mnt/data --memmap_dir /mnt/data/tmp --cv_folds 5 --enet_cv_folds 5 --standardize --disable_cat_oof --disable_cat_smoothed
 ```
 
-## Files Descriptions
+## File Descriptions
 The *Code_Review.docx* is a MS Word document with content pertained to its name. Although a braindump it offers a lot of helpful material to expedite code familiarization. It reviews the codebase from a bird's eye view, provides insight about the core math/stats concepts, lists CLI flag examples, tips and tricks for efficient execution separated in functional categories and the Q/As at its lowest section clarify a few technical terms and addresses user anticiapted questions.
 
 The *ElasticNet_Memmap_CV_Walkthrough.pptx* is a MS PowerPoint file that summarizes the script's functionality and elaborates on the underlying scientific methodology in a structured formal slide-deck designed for a technical audience of developers and scientists.  
+
+The *source_data.csv* is a long enough synthetic file sample to experiment with the code. 
+
+The *requirements.txt* is the familiar text file that lists all the external python modules and libraries required for the project at hand.
+
+Lastly, and most importantly, *correlation_pipeline_grid_memmap_flags_enet.py* is the main python script.
