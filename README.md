@@ -33,5 +33,6 @@ python correlation_pipeline_grid_memmap_cv_enet.py --data /mnt/data/source_data.
 ```
 
 ## Files Descriptions
-The *Code_Review.docx* is a MS Word document with content pertained to its name. Although it is a braindump it offers a lot of helpful material that expedites code familiarization. It reviews the body of code from a bird's eye view, it provides insight about the math/stats running at the core of the script, it lists CLI flag examples, tips and tricks for efficient execution separated in functional categories and the Q/As at its lowest section explain a few technical terms and answer user anticiapted questions.
+The *Code_Review.docx* is a MS Word document with content pertained to its name. Although a braindump it offers a lot of helpful material to expedite code familiarization. It reviews the codebase from a bird's eye view, provides insight about the core math/stats concepts, lists CLI flag examples, tips and tricks for efficient execution separated in functional categories and the Q/As at its lowest section clarify a few technical terms and addresses user anticiapted questions.
 
+The *ElasticNet_Memmap_CV_Walkthrough.pptx* is a MS PowerPoint file that summarizes the script's functionality and elaborates on the underlying scientific methodology in a structured formal slide-deck designed for a technical audience of developers and scientists.  
