@@ -10,7 +10,7 @@ We built a correlation screening pipeline for mixed predictors and targets that 
 
 ## Features
 - Parses CLI flags for I/O paths, targets, CV settings, grid caps, and switches to enable/disable transformation families.
-- Loads data and, per target, excludes other targets, splits predictors into categorical vs numeric.
+- Loads raw data and calculates the correlation of one target at a time, splits predictors into categorical vs numeric.
 - Enumerates base predictor combos (size ≥ 2), then builds per-predictor transformation menus (cat: one-hot, rare one-hot, OOF, smoothed; num: raw, raw+{standard|minmax|robust}, imputers, imputed+scalers), pruned by flags.
 - Forms the full cartesian product of choices per combo (optionally capped) so each grid contains exactly one variant per predictor.
 - Materializes each grid to a disk-backed matrix (numpy.memmap) by streaming transformed blocks and mean-filling NaNs; optionally applies a two-pass, blockwise standardization to z-score all features in place.
