@@ -22,11 +22,13 @@ We built a correlation screening pipeline for mixed predictors and targets that 
 
 ## Quick Start
 ```bash
-# 1) Create and activate an environment
+# 1) Create and activate a virtual environment
 python -m venv .venv && source .venv/bin/activate    # on Windows: .venv\Scripts\activate
 
-# 2) Install
+# 2) Install necessary Python modules
 pip install -r requirements.txt
 
 # 3) Run a minimal example
-python PATH/TO/SCRIPT.py --input data/sample.csv --output out/results.csv
+<span style="white-space: nowrap;"> python correlation_pipeline_grid_memmap_cv_enet.py --data /mnt/data/source_data.csv --print_output_dir /mnt/data --targets  "Target1_Name" "Target2_Name" --output_dir /mnt/data --memmap_dir /mnt/data/tmp --cv_folds 5 --enet_cv_folds 5 --standardize --disable_cat_oof --disable_cat_smoothed
+ </span>
+
