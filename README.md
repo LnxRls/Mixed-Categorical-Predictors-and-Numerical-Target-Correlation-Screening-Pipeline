@@ -1,4 +1,4 @@
-# Mixed-Categorical-Predictors-and-Numerical-Target-Correlation-Screening-Pipeline
+# Mixed Categorical Predictors and Numeric Target Correlation Screening Pipeline
 > Exhaustive, disk-backed feature-transformation grid with nested-CV Elastic Net to deliver out-of-sample R² scores per target
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](#)
@@ -33,7 +33,7 @@ python correlation_pipeline_grid_memmap_cv_enet.py --data /mnt/data/source_data.
 ```
 
 ## File Descriptions
-The *Code_Review.docx* is a MS Word document with content pertained to its name. Although a braindump it offers a lot of helpful material to expedite code familiarization. It reviews the codebase from a bird's eye view, provides insight about the core math/stats concepts, lists CLI flag examples, tips and tricks for efficient execution separated in functional categories and the Q/As at its lowest section clarify a few technical terms and addresses user anticiapted questions.
+The *Code_Review.docx* is a MS Word document with content pertained to its name. Although a braindump, it offers a lot of helpful material to expedite code familiarization. It reviews the codebase from a bird's eye view, provides insight about the core math/stats concepts, lists CLI flag examples, tips and tricks for efficient execution separated in functional categories, and the Q/As at its lowest section clarify a few technical terms and address user anticipated questions.
 
 The *ElasticNet_Memmap_CV_Walkthrough.pptx* is a MS PowerPoint file that summarizes the script's functionality and elaborates on the underlying scientific methodology in a structured formal slide-deck designed for a technical audience of developers and scientists.  
 
